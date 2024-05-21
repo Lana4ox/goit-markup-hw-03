@@ -23,36 +23,44 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav>
-          <a href="./index.html" class="link-logo"
-            >Web<span class="header-accent">Studio</span></a
-          >
-          <ul>
-            <li><a class="header-link" href="./index.html">Portfolio</a></li>
-            <li><a class="header-link" href="">Contacts</a></li>
-            <li><a class="header-link" href="">Studio</a></li>
-          </ul>
-        </nav>
+        <div class="header-container">
+          <nav class="header-nav">
+            <a href="./index.html" class="link-logo"
+              >Web<span class="header-accent">Studio</span></a
+            >
+            <ul class="header-menu">
+              <li class="header-menu-item">
+                <a class="header-link" href="">Contacts</a>
+              </li>
+              <li class="header-menu-item">
+                <a class="header-link" href="./index.html">Portfolio</a>
+              </li>
+              <li class="header-menu-item">
+                <a class="header-link" href="">Studio</a>
+              </li>
+            </ul>
+          </nav>
 
-        <address class="header-address">
-          <ul>
-            <li>
-              <a class="header-link-address" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="header-link-address" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+          <address class="header-address">
+            <ul class="address-list">
+              <li class="address-list-item">
+                <a class="header-link-address" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a class="header-link-address" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="hero section">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
@@ -61,35 +69,43 @@
 
       <section class="solutions section">
         <div class="container">
-          <h2 class="section-title">Solutions</h2>
+          <h2 class="visually-hidden">Solutions</h2>
           <ul class="section-item">
             <li class="solutions-card">
-              <h3 class="section-item-title">Strategy</h3>
-              <p class="section-item-description text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
+              <div class="solutions-card-content">
+                <h3 class="section-item-title">Strategy</h3>
+                <p class="section-item-description">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </div>
             </li>
             <li class="solutions-card">
-              <h3 class="section-item-title">Punctuality</h3>
-              <p class="section-item-description text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
+              <div class="solutions-card-content">
+                <h3 class="section-item-title">Punctuality</h3>
+                <p class="section-item-description">
+                  Bring the key message to the brand's audience for the best
+                  price within the shortest possible time.
+                </p>
+              </div>
             </li>
             <li class="solutions-card">
-              <h3 class="section-item-title">Diligence</h3>
-              <p class="section-item-description text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
+              <div class="solutions-card-content">
+                <h3 class="section-item-title">Diligence</h3>
+                <p class="section-item-description">
+                  Research and confirm brands that present the strongest digital
+                  growth opportunities and minimize risk.
+                </p>
+              </div>
             </li>
             <li class="solutions-card">
-              <h3 class="section-item-title">Technologies</h3>
-              <p class="section-item-description text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
+              <div class="solutions-card-content">
+                <h3 class="section-item-title">Technologies</h3>
+                <p class="section-item-description">
+                  Design practice focused on digital experiences. We bring forth
+                  a deep passion for problem-solving.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -106,8 +122,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-item-title">Mark Guerrero</h3>
-              <p class="section-item-description">Product Designer</p>
+              <div class="team-card-content">
+                <h3 class="section-item-title">Mark Guerrero</h3>
+                <p class="section-item-description">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -116,8 +134,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-item-title">Tom Ford</h3>
-              <p class="section-item-description">Frontend Developer</p>
+              <div class="team-card-content">
+                <h3 class="section-item-title">Tom Ford</h3>
+                <p class="section-item-description">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -126,8 +146,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-item-title">Camila Garcia</h3>
-              <p class="section-item-description">Marketing</p>
+              <div class="team-card-content">
+                <h3 class="section-item-title">Camila Garcia</h3>
+                <p class="section-item-description">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -136,8 +158,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-item-title">Daniel Wilson</h3>
-              <p class="section-item-description">UI Designer</p>
+              <div class="team-card-content">
+                <h3 class="section-item-title">Daniel Wilson</h3>
+                <p class="section-item-description">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -154,8 +178,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="section-item-title">Banking App</h3>
-              <p class="section-item-description">App</p>
+              <div class="portfolio-card-content">
+                <h3 class="section-item-title">Banking App</h3>
+                <p class="section-item-description">App</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -164,8 +190,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="section-item-title">Cashless Payment</h3>
-              <p class="section-item-description">Marketing</p>
+              <div class="portfolio-card-content">
+                <h3 class="section-item-title">Cashless Payment</h3>
+                <p class="section-item-description">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -174,8 +202,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="section-item-title">Meditation App</h3>
-              <p class="section-item-description">App</p>
+              <div class="portfolio-card-content">
+                <h3 class="section-item-title">Meditation App</h3>
+                <p class="section-item-description">App</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -184,8 +214,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="section-item-title">Taxi Service</h3>
-              <p class="section-item-description">Marketing</p>
+              <div class="portfolio-card-content">
+                <h3 class="section-item-title">Taxi Service</h3>
+                <p class="section-item-description">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -194,8 +226,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="section-item-title">Screen Illustrations</h3>
-              <p class="section-item-description">Design</p>
+              <div class="portfolio-card-content">
+                <h3 class="section-item-title">Screen Illustrations</h3>
+                <p class="section-item-description">Design</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -204,8 +238,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="section-item-title">Online Courses</h3>
-              <p class="section-item-description">Marketing</p>
+              <div class="portfolio-card-content">
+                <h3 class="section-item-title">Online Courses</h3>
+                <p class="section-item-description">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
